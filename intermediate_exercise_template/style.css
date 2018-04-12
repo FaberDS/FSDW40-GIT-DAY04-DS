@@ -15,7 +15,7 @@ a:active {
 }
 
 body {
-    background: #f4f4f4 url(pagebg.gif) repeat-y top center;
+    background: #DFE3C7 url(pagebg.gif) repeat-y top center;
     font: 69%/1.5em 'Lucida Sans Unicode', 'Lucida Grande', verdana, arial, sans-serif;
     color: #333;
     margin: 0;
@@ -237,4 +237,22 @@ h3.archives span {
     margin: 0;
     padding: 10px;
     color: #FFFFFF;
+}
+h3 {
+    font-size: 12pt;
+}
+#participation {
+    background-color: #747C3A;
+    color: white;
+}
+#explanation [class="danger"] {
+    color: brown;
+    font-weight: bold;
+}
+ul > li {
+    color: #525D21;
+    font-style: italic;
+}
+span[class="strong"] > li {
+    color: #DD8804;
 }
