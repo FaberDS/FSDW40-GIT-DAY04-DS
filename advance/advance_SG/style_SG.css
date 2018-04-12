@@ -1,0 +1,48 @@
+.container {
+	margin: 5px;
+	padding:  0;
+}
+.nav, .feature, .column, .footer {
+	background-color: grey;
+	margin-top:  10px;
+	height: 100px;
+	text-align: center;
+	display: table;
+	width: 100%;
+}
+.column {
+	float: left;
+	width: 32.63%;
+	margin-bottom: 10px;
+}
+.footer {
+	clear: both;
+	display: table;
+}
+.nav{
+	display: table;
+	width: 100%;
+}
+.nav ul {
+	list-style-type: none;
+    margin: 0;
+    /*padding: 40px 0 0 0; */
+    overflow: hidden;
+    display: table-cell;
+    vertical-align: middle;
+}
+.nav li {
+	text-align: center;
+	display: inline;
+}
+.nav a {
+	padding: 10px;
+}
+h1, h3 {
+	display: table-cell;
+	vertical-align: middle;
+}
+.two {
+	margin-left: 1%;
+	margin-right: 1%;
+}
