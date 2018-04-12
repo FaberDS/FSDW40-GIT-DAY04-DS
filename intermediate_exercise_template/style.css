@@ -254,11 +254,11 @@ ul > li {
     font-style: italic;
 }
 
-/*Why does this selector not work?
-the class in the html file line 32 need to be changed befor to "strong"
-span > li [class="strong"]{
+
+span[class="years"] > li[class="strong"]{
         color: #DD8804;
-}*/
-.strongy{
-    color: #DD8804;
+}
+.p1 {
+    font-style: oblique;
+}
 }
