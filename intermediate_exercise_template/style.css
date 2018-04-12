@@ -253,6 +253,12 @@ ul > li {
     color: #525D21;
     font-style: italic;
 }
-span[class="strong"] > li {
+
+/*Why does this selector not work?
+the class in the html file line 32 need to be changed befor to "strong"
+span > li [class="strong"]{
+        color: #DD8804;
+}*/
+.strongy{
     color: #DD8804;
 }
